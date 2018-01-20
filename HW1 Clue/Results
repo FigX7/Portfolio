@@ -1,0 +1,53 @@
+/**
+ * Results.txt :
+ * 		Is the results of RandomClue vs Our solution finder.
+ *		Missed the answer in txt file. 
+ *									
+ * 
+ * Class Invariant: N/A
+ * 
+ * 
+ * @author		Michael Figueroa
+ * @version		1.0
+ 
+ **/
+ 				Number of Checks by RandomClue.java
+ 
+ Theory 1:    -      Theory 2:	 -	Theory 3:
+ ------------ -------------------------------
+ 	30		  -  		160		 -		526
+ 	224		  -	     	885      -		56
+ 	1060	  -         368      -		451
+ 	442       -         912		 -		145
+ ---------------------------------------------
+ 						Questions:
+ 	
+• What is good or bad about this strategy?
+ 		
+ 		Good -There is a chance it can guess the set on first try
+ 		Bad  -Big O is n^3 		
+ 			
+ 			
+ 			
+ ------------------------------------------------------------			
+ ------------------------------------------------------------			
+ 			Number of Checks by My implementation.
+ 
+ Theory 1:    -      Theory 2:	 -	Theory 3:
+ ------------ -------------------------------
+ 	20		  -  	    1	     -		19
+ 	20		  -	     	1        -		14
+ 	20		  -         1        -		11
+ 	20        -         1  		 -		12
+ 	20		  -			1		 -      11
+ 	20        -         1        -      9
+ 	20		  -		    1		 -      4
+ 
+ 	
+ 	
+ 						Questions:  
+ 		
+• What is good or bad about this strategy?
+		
+		Good- Worse case: 20 checks 
+ 		Good- Best case = 1 check
